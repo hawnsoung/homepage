@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방문자 내역이 표시되는 웹사이트</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">내 웹페이지</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>내 웹페이지에 오신 것을 환영합니다</h2>
+            <p>Bill Ridge 스타일의 모던하고 깔끔한 디자인입니다.</p>
+            <a href="#about" class="cta-button">자세히 알아보기</a>
+        </div>
+    </section>
+
+    <section id="visitor-stats" class="content-section">
+        <h2>오늘의 방문자 내역</h2>
+        <p id="visitor-count">오늘 방문자 수: <span id="visitor-count-number">0</span></p>
+        <ul id="visitor-list"></ul>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>소개</h2>
+        <p>이 섹션은 우리에 대한 소개입니다.</p>
+    </section>
+
+    <section id="services" class="content-section">
+        <h2>서비스</h2>
+        <p>우리가 제공하는 서비스에 대한 정보입니다.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>연락처</h2>
+        <p>연락하는 방법.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 내 웹페이지. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
